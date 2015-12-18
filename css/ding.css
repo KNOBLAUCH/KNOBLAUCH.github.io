@@ -2,11 +2,12 @@ body {
 
 height: 10px;
 width: 200px;
-margin: 100px;
-background-color: rgb(26, 179, 255);
+margin: 40px;
+background-color: rgb(210, 169, 45);
+font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 h1 {
-background-color: blue;
+background-color:rgb(153, 0, 0);
 font-family: Georgia, serif;
 }
