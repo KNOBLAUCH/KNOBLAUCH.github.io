@@ -1,7 +1,7 @@
 var piCount = document.querySelector('p2');
 piCount.textContent = '3.';
 
-var spinCount = document.querySelectior('0');
+var spinCount = document.querySelectior('p');
 spinCount.textContent = 'π is al 0 keer gespind';
 
 var count = 0;
