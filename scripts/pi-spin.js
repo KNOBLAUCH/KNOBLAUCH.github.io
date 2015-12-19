@@ -3,4 +3,5 @@ myHeading.textContent = '3.141';
 
 for (i = 0; i < 5; i++) {
     myHeading.textContent += '333';
+    setTimeout(1000);
 }
