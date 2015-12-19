@@ -5,5 +5,5 @@ function doSetTimeout(i) {
   setTimeout(function() { myHeading.textContent += i; }, 1000);
 }
 
-for (var i = 0; i <= 1000; ++i)
+for (var i = 0; i <= 10; ++i)
   doSetTimeout(i);
