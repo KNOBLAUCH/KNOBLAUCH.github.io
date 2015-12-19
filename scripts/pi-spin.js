@@ -17,5 +17,5 @@ spinCount.textContent = 'π is al 0 keer gespind';
       spinCount.textContent = 'π is al ' + count + ' keer gespind';
     }
     loop()
-  }, 1000);
+  }, 2000);
 }());
