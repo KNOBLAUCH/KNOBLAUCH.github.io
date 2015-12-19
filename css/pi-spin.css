@@ -36,3 +36,9 @@ transform: translate(-50%, -50%);
 opacity: 0.8;
 }
 
+#player {
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+
