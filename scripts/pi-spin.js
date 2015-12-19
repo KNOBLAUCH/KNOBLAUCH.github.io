@@ -14,7 +14,7 @@ spinCount.textContent = 'π is al 0 keer gespind';
     { 
       count++;
       piCount.textContent = pi.slice(0,count+2);
-      spinCount.textContent = 'π is al ' + count + ' keer gespind';
+      spinCount.textContent = 'π is al ' + 2 + ' keer gespind';
     }
     loop()
   }, 1000);
