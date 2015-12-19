@@ -1,2 +1,2 @@
-var myHeading = document.querySelector('p2');
+var myHeading = document.querySelector('spins');
 myHeading.textContent = '3.141';
