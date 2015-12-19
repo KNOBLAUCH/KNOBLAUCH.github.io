@@ -5,6 +5,6 @@ myHeading.textContent = '3.';
   setTimeout(function () {
     { myHeading.textContent += '1'; }
     loop()
-  }, 9000);
+  }, 1000);
 }());
 
