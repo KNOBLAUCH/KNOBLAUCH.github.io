@@ -33,3 +33,7 @@ function removepi(amount) {
       pis -= amount; 
     }
 }
+
+function increasepps(amount){
+  pps += amount;
+}
