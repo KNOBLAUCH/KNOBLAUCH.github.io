@@ -14,7 +14,7 @@ var totpis = 0;
     { 
       //update every 1/100 second
       
-      roundNum = 7/pps-0.3;
+      roundNum = Math.round((7/pps-0.3)*10)/10;
       
       pisRound = Math.round(pis*roundNum)/roundNum;
       ppsRound = Math.round(pps*1000)/1000;
