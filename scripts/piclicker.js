@@ -10,14 +10,14 @@ var pps = 0.7;
 (function loop() {
   setTimeout(function () {
     { 
-      //update every second
+      //update every 1/100 second
       
       amountofpis.textContent = 'amount of πs: ' + pis;
-      pis += pps;
+      pis += (pps/100);
       
       pispersec.textContent = 'amount of πs per second: ' + pps;
       
     }
     loop()
-  }, 1000);
+  }, 10);
 }());
