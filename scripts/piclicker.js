@@ -28,6 +28,6 @@ var totpis = 0;
   }, 100);
 }());
 
-function removepi(var amount) {
-    pis-=amount;
-};
+function removepi(amount) {
+    pis -= amount;
+}
