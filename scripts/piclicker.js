@@ -29,5 +29,7 @@ var totpis = 0;
 }());
 
 function removepi(amount) {
-    pis -= amount;
+    if (amount < pis){
+      pis -= amount; 
+    }
 }
