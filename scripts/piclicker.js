@@ -12,20 +12,18 @@ var totpis = 0;
 (function loop() {
   setTimeout(function () {
     { 
-      //update every 1/100 second
+      //update every 1/10 second
       
-      roundNum = Math.round((7/pps-0.3)*10)/10;
-      
-      pisRound = Math.round(pis*roundNum)/roundNum;
+      pisRound = Math.round(pis*10)/10;
       ppsRound = Math.round(pps*1000)/1000;
       
       amountofpis.textContent = 'amount of πs: ' + pisRound;
-      pis += (pps/100);
-      totpis += (pps/100);
+      pis += (pps/10);
+      totpis += (pps/10);
       
       pispersec.textContent = 'amount of πs per second: ' + ppsRound;
       
     }
     loop()
-  }, 10);
+  }, 100);
 }());
