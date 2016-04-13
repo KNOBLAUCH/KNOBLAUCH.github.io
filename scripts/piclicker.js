@@ -30,4 +30,4 @@ var totpis = 0;
 
 function removepi(var amount) {
     pis-=amount;
-}
+};
