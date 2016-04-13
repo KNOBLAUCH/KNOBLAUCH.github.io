@@ -27,3 +27,7 @@ var totpis = 0;
     loop()
   }, 100);
 }());
+
+function removepi(var amount) {
+    pis-=amount;
+}
