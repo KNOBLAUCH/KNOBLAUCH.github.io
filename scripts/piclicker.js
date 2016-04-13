@@ -12,7 +12,7 @@ var pps = 0.7;
     { 
       //update every 1/100 second
       
-      amountofpis.textContent = 'amount of πs: ' + pis;
+      amountofpis.textContent = 'amount of πs: ' + round(pis*10)/10;
       pis += (pps/100);
       
       pispersec.textContent = 'amount of πs per second: ' + pps;
