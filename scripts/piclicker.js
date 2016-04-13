@@ -6,6 +6,7 @@ pispersec.textContent = 'amount of πs per second:';
 
 var pis = 0;
 var pps = 0.7;
+var totpis = 0;
 
 (function loop() {
   setTimeout(function () {
@@ -16,6 +17,7 @@ var pps = 0.7;
       
       amountofpis.textContent = 'amount of πs: ' + pisRound;
       pis += (pps/100);
+      totpis += (pps/100);
       
       pispersec.textContent = 'amount of πs per second: ' + pps;
       
