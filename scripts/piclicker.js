@@ -18,8 +18,8 @@ var totpis = 0;
       ppsRound = Math.round(pps*100)/100;
       
       amountofpis.textContent = 'amount of πs: ' + pisRound;
-      pis += (pps/10);
-      totpis += (pps/10);
+      pis += (pps/100);
+      totpis += (pps/100);
       
       pispersec.textContent = 'amount of πs per second: ' + ppsRound;
       
