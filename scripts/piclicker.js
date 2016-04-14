@@ -12,9 +12,9 @@ var totpis = 0;
 (function loop() {
   setTimeout(function () {
     { 
-      //update every 1/10 second
+      //update every 1/100 second
       
-      pisRound = Math.round(pis*10)/10;
+      pisRound = Math.round(pis*100)/100;
       ppsRound = Math.round(pps*1000)/1000;
       
       amountofpis.textContent = 'amount of πs: ' + pisRound;
@@ -25,7 +25,7 @@ var totpis = 0;
       
     }
     loop()
-  }, 100);
+  }, 1000);
 }());
 
 function removepi(amount) {
