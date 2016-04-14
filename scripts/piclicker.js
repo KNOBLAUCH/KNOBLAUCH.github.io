@@ -40,7 +40,9 @@ function increasepps(amount){
 
 function buyupgrade(name){
   if (name == 'test'){
-    removepi(20);
-    increasepps(2);
-  }
+    if (pis > 20){
+      removepi(20);
+      increasepps(2);
+    }
+  }  
 }
