@@ -14,12 +14,12 @@ var totpis = 0;
     { 
       //update every 1/100 second
       
-      pisRound = Math.round(pis*10)/10;
+      pisRound = Math.round(pis*100)/100;
       ppsRound = Math.round(pps*1000)/1000;
       
       amountofpis.textContent = 'amount of πs: ' + pisRound;
-      pis += (pps/10);
-      totpis += (pps/10);
+      pis += (pps/1000);
+      totpis += (pps/1000);
       
       pispersec.textContent = 'amount of πs per second: ' + ppsRound;
       
